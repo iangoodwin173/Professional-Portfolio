@@ -1,0 +1,166 @@
+*{
+    scroll-behavior: smooth;
+}
+
+nav, ul {
+    text-align: right;
+    list-style-type: none;
+    font-size: 30px;
+    color:rgb(209, 212, 226);
+    margin: 0px;   
+    padding: 0px;
+    flex-wrap: wrap; 
+}
+
+li {
+    display: inline;
+    padding: 2px;
+}
+
+body {
+    background-image: url(./bg-image.jpg);
+    background-size: cover;
+}
+
+.profile-picture {
+    width: 350px;
+    height: 500px;
+    padding-left: 50px;
+    flex-wrap: wrap;
+    position: relative;
+    top: 0px;
+    align-items: center;
+}
+
+
+.main-project {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.main-project figure {
+    width: 400px;
+    height: 400px;
+}
+
+.main-coming-soon {
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+
+.coming-soon {
+    display: inline-block;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 75px;
+
+}
+
+.projects {
+    display: inline-block;
+    text-align: center;
+    width: 1800px;
+}
+
+p {
+    color:rgb(230, 44, 31);
+    font-size: 30px;
+}
+
+.about-text {
+    font-size: 30px;
+}
+
+.profile-section {
+    text-align: center;
+}
+
+h1, p {
+    text-align: center;
+    font-size: 40px;
+}
+
+.my-projects h1 {
+    text-align: center;
+}
+
+.main-project figcaption {
+    position: relative;
+    top: -60px;
+    font-size: 20px;
+    width: 150px;
+}
+
+.about-me {
+    position: relative;
+    left: 400px;
+    bottom: 500px;
+    max-width: 500px;
+}
+
+figure {
+    display: inline-flex;
+    margin-top: 90px;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 1800px;
+}
+
+figcaption {
+    position: relative;
+    top: 40px;
+    left: 200px;
+    width: 100px;
+}
+
+.contacts {
+    flex-wrap: wrap;
+}
+ 
+
+@media screen and (max-width: 768px) {
+    
+nav{
+    flex-direction: column;
+
+}
+.projects {
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+}
+
+figure {
+    flex-direction: column;
+}
+
+.projecs figure {
+    text-align: center;
+}
+
+.about-me {
+    flex-direction: column;
+    position: relative;
+    top: 40px;
+    left: 0px;
+
+}
+
+.my-projects {
+    max-width: 767px;
+    padding: 10px;
+}
+
+.contacts {
+    flex-direction: column;
+    max-width: 767px;
+}
+
+
+}
+
+
+
